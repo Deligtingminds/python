@@ -253,19 +253,19 @@
 #   be more "efficient" or more "clean" than others. Who cares at this point. Find what solutions works for you AND successfully
 #   checks passwords and call it a win!
 
-import string
-import random
+# import string
+# import random
 
-def generate_password(length):
-    # Characters to generate password from
-    characters = string.ascii_letters + string.digits + string.punctuation
+# def generate_password(length):
+#     # Characters to generate password from
+#     characters = string.ascii_letters + string.digits + string.punctuation
 
-    # Creating a password
-    password = ''.join(random.choice(characters) for i in range(length))
-    return password
+#     # Creating a password
+#     password = ''.join(random.choice(characters) for i in range(length))
+#     return password
 
-# Input from user for password length
-password_length = int(input("Enter the length of the password: "))
+# # Input from user for password length
+# password_length = int(input("Enter the length of the password: "))
 
-# Function call to generate password
-print("Generated Password:", generate_password(password_length))
+# # Function call to generate password
+# print("Generated Password:", generate_password(password_length))
